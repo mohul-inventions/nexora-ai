@@ -56,7 +56,7 @@ class NumberedCanvas(canvas.Canvas):
         # Bottom running footer
         self.setFont("Helvetica", 8)
         self.setFillColor(colors.HexColor("#94a3b8"))
-        self.drawString(54, 34, "Confidential • Internship Submission • Mohul (mohul-inventions)")
+        self.drawString(54, 34, "Confidential • Internship Submission • C R Mohul Ram (mohul-inventions)")
         
         page_str = f"Page {self._pageNumber} of {page_count}"
         self.drawRightString(8.5 * inch - 54, 34, page_str)
@@ -207,7 +207,7 @@ def generate_report(output_filename):
     story.append(HRFlowable(width="100%", thickness=2, color=brand_cyan, spaceBefore=5, spaceAfter=20))
 
     cover_meta = [
-        [Paragraph("<b>Candidate Name:</b>", body_style), Paragraph("Mohul (mohul-inventions)", body_style)],
+        [Paragraph("<b>Candidate Name:</b>", body_style), Paragraph("C R Mohul Ram (mohul-inventions)", body_style)],
         [Paragraph("<b>Role / Specialization:</b>", body_style), Paragraph("Senior Frontend Engineer & UI/UX Designer", body_style)],
         [Paragraph("<b>Assignment Task:</b>", body_style), Paragraph("AI Website Generation Internship Project", body_style)],
         [Paragraph("<b>Core Technology Stack:</b>", body_style), Paragraph("React 18 • Vite 6 • Tailwind CSS • Lucide React • Edge AI Models", body_style)],
@@ -383,7 +383,7 @@ def generate_report(output_filename):
 
     signoff_box = [
         [
-            Paragraph("<b>Submitted By:</b><br/>Mohul<br/>GitHub: @mohul-inventions", table_cell),
+            Paragraph("<b>Submitted By:</b><br/>C R Mohul Ram<br/>GitHub: @mohul-inventions", table_cell),
             Paragraph("<b>Project Status:</b><br/><font color='#059669'><b>APPROVED FOR PRODUCTION</b></font><br/>All 10 Sections Operational", table_cell),
             Paragraph("<b>Evaluation Date:</b><br/>October 21, 2026<br/>Smart Campus OS v2.4", table_cell)
         ]
